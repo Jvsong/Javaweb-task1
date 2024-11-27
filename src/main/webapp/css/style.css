@@ -1,0 +1,238 @@
+/* 全局样式 */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* 登录容器样式 */
+.login-container {
+    width: 350px;
+    padding: 20px;
+    background: white;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    text-align: center;
+}
+
+/* 标题样式 */
+.login-container h2 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/* 输入框样式 */
+.login-container input[type="text"],
+.login-container input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+    box-sizing: border-box;
+}
+
+/* 按钮样式 */
+.login-container button {
+    width: 100%;
+    padding: 10px;
+    background: #5cb85c;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+/* 按钮悬停效果 */
+.login-container button:hover {
+    background: #4cae4c;
+}
+
+/* 注册链接样式 */
+.register-link {
+    margin-top: 15px;
+    font-size: 14px;
+    color: #666;
+}
+
+.register-link a {
+    color: #337ab7;
+    text-decoration: none;
+}
+
+.register-link a:hover {
+    text-decoration: underline;
+}
+
+/* 注册容器样式 */
+.register-container {
+    width: 350px;
+    padding: 20px;
+    background: white;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+/* 标题样式 */
+.register-container h2 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/* 输入框样式与登录界面一致 */
+.register-container input[type="text"],
+.register-container input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+    box-sizing: border-box;
+}
+
+/* 按钮样式与登录界面一致 */
+.register-container button {
+    width: 100%;
+    padding: 10px;
+    background: #0275d8;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+/* 按钮悬停效果 */
+.register-container button:hover {
+    background: #025aa5;
+}
+
+/* 登录链接样式 */
+.login-link {
+    margin-top: 15px;
+    font-size: 14px;
+    color: #666;
+}
+
+.login-link a {
+    color: #5cb85c;
+    text-decoration: none;
+}
+
+.login-link a:hover {
+    text-decoration: underline;
+}
+
+/* 登录成功容器样式 */
+.success-container {
+    width: 400px;
+    padding: 20px;
+    background: white;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+/* 标题样式 */
+.success-container h2 {
+    margin-bottom: 10px;
+    color: #28a745;
+}
+
+/* 文本样式 */
+.success-container p {
+    margin: 10px 0;
+    font-size: 16px;
+    color: #555;
+}
+
+/* 按钮组样式 */
+.button-group {
+    margin-top: 20px;
+}
+
+/* 按钮样式 */
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 14px;
+    margin: 5px;
+    transition: background-color 0.3s ease;
+}
+
+/* 次级按钮样式 */
+.button.button-secondary {
+    background-color: #6c757d;
+}
+
+.button:hover {
+    background-color: #0056b3;
+}
+
+.button.button-secondary:hover {
+    background-color: #5a6268;
+}
+
+/* 登录失败容器样式 */
+.failure-container {
+    width: 400px;
+    padding: 20px;
+    background: white;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+/* 标题样式 */
+.failure-container h2 {
+    margin-bottom: 10px;
+    color: #dc3545; /* 红色表示失败 */
+}
+
+/* 文本样式 */
+.failure-container p {
+    margin: 10px 0;
+    font-size: 16px;
+    color: #555;
+}
+
+/* 按钮组样式 */
+.button-group {
+    margin-top: 20px;
+}
+
+/* 按钮样式 */
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 14px;
+    margin: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: #0056b3;
+}
+
